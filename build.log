@@ -1,89 +1,93 @@
-[  2%] Building ASM object CMakeFiles/Tinos3cKernel.dir/kernel/entry.S.o
-/tmp/ccqydr5K.s: Assembleriviestit:
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:1: Virhe: roskaa rivin lopussa, ensimmäinen tunnistamaton merkki on ”[”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:3: Virhe: tuntematon käsky: ”global _start”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:4: Virhe: tuntematon käsky: ”extern _main”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:6: Virhe: tuntematon käsky: ”section .text.prologue”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:11: Virhe: tuntematon käsky: ”multiboot v1 enters in 32-bit mode with magic in EAX and the physical”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:12: Virhe: tuntematon käsky: ”multiboot-info pointer in EBX. Preserve them across page-table setup.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:13: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:14: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:16: Virhe: tuntematon käsky: ”set up a temporary 32-bit stack.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:17: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:19: Virhe: roskaa rivin lopussa, ensimmäinen tunnistamaton merkki on ”-”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:20: Virhe: tuntematon käsky: ”set up identity-mapped paging for the first 2 MiB.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:22: Virhe: virheellinen merkki '[' muistikkaassa
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:23: Virhe: virheellinen merkki '[' muistikkaassa
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:24: Virhe: virheellinen merkki '[' muistikkaassa
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:25: Virhe: roskaa rivin lopussa, ensimmäinen tunnistamaton merkki on ”-”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:27: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:28: Virhe: operandityyppitäsmäämättömyys kohteelle ”or”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:29: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:31: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:32: Virhe: operandityyppitäsmäämättömyys kohteelle ”or”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:33: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:35: Virhe: tuntematon käsky: ”present +writable+2 MiB page”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:36: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:37: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:39: Virhe: tuntematon käsky: ”keep the complete kernel image and early PMM bitmap reachable.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:40: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:41: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:42: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:43: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:44: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:45: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:47: Virhe: tuntematon käsky: ”load PML4 into CR3”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:48: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:49: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:51: Virhe: tuntematon käsky: ”enable PAE”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:52: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:53: Virhe: operandityyppitäsmäämättömyys kohteelle ”or”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:54: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:56: Virhe: tuntematon käsky: ”enable long mode in EFER”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:57: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:57: Virhe: tuntematon käsky: ”ia32_efer”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:59: Virhe: operandityyppitäsmäämättömyys kohteelle ”or”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:59: Virhe: tuntematon käsky: ”lme”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:62: Virhe: tuntematon käsky: ”enable paging”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:63: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:64: Virhe: operandityyppitäsmäämättömyys kohteelle ”or”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:64: Virhe: tuntematon käsky: ”pg”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:65: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:67: Virhe: tuntematon käsky: ”load 64-bit GDT”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:70: Virhe: tuntematon käsky: ”far jump into 64-bit code”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:71: Virhe: roskaa ”:long_mode_entry” lausekkeen jälkeen
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:74: Virhe: roskaa rivin lopussa, ensimmäinen tunnistamaton merkki on ”[”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:77: Virhe: tuntematon käsky: ”now actually executing in long mode.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:79: Virhe: tuntematon käsky: ”set up a 64-bit stack.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:80: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:82: Virhe: tuntematon käsky: ”clear direction flag.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:85: Virhe: tuntematon käsky: ”first two SysV AMD64 arguments:multiboot info and magic.”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:86: Virhe: found 'b', expected: ']'
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:86: Virhe: roskaa ”boot_info]” lausekkeen jälkeen
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:86: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:87: Virhe: found 'b', expected: ']'
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:87: Virhe: roskaa ”boot_magic]” lausekkeen jälkeen
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:87: Virhe: operandityyppitäsmäämättömyys kohteelle ”mov”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:97: Virhe: tuntematon käsky: ”align 8”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:100: Virhe: tuntematon käsky: ”dq 0x0000000000000000”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:100: Virhe: tuntematon käsky: ”null descriptor”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:102: Virhe: roskaa rivin lopussa, ensimmäinen tunnistamaton merkki on ”6”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:103: Virhe: tuntematon käsky: ”dq 0x00AF9A000000FFFF”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:105: Virhe: tuntematon käsky: ”data descriptor”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:106: Virhe: tuntematon käsky: ”dq 0x00AF92000000FFFF”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:109: Virhe: tuntematon käsky: ”dw .pointer - gdt64 - 1”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:110: Virhe: tuntematon käsky: ”dq gdt64”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:112: Virhe: tuntematon näennäiskäskykoodi: ”.code”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:117: Virhe: tuntematon käsky: ”align 4096”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:120: Virhe: tuntematon käsky: ”times 512 dq 0”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:123: Virhe: tuntematon käsky: ”times 512 dq 0”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:126: Virhe: tuntematon käsky: ”times 512 dq 0”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:131: Virhe: tuntematon käsky: ”section .bss”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:133: Virhe: tuntematon käsky: ”align 16”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:136: Virhe: tuntematon käsky: ”resb 8192”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:140: Virhe: tuntematon käsky: ”align 8”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:142: Virhe: tuntematon käsky: ”resd 1”
-/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/entry.S:144: Virhe: tuntematon käsky: ”resd 1”
-make[2]: *** [CMakeFiles/Tinos3cKernel.dir/build.make:162: CMakeFiles/Tinos3cKernel.dir/kernel/entry.S.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:90: CMakeFiles/Tinos3cKernel.dir/all] Error 2
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dev/CLionProjects/tinos3c-kernel-experimental/build
+[  2%] Generating asm/kernel_idt_interrupt.S.o
+[  4%] Generating asm/kernel_entry.S.o
+[  7%] Generating asm/kernel_gdt_gdt.S.o
+[  9%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/acpi/kernel_apis.c.o
+In file included from /home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/acpi/kernel_apis.c:3:
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.h:41:13: warning: ”pci_scan” declared ”static” but never defined [-Wunused-function]
+   41 | static void pci_scan(
+      |             ^~~~~~~~
+[ 12%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/console/console.c.o
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/console/console.c: Funktio ”console”:
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/console/console.c:44:24: warning: etumerkiltään eroavien kokonaislukulausekkeiden vertailu: ”int” ja ”long unsigned int” [-Wsign-compare]
+   44 |         } else if (pos < sizeof(buffer) - 1) {
+      |                        ^
+[ 14%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/console/test_cmds/sleep.c.o
+[ 17%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/drivers/keyboard/kb.c.o
+[ 19%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/drivers/pci/pci.c.o
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.c: Funktio ”pci_scan”:
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.c:28:13: warning: käyttämätön muuttuja ”header” [-Wunused-variable]
+   28 |     uint8_t header =
+      |             ^~~~~~
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.c:25:13: warning: käyttämätön muuttuja ”class_code” [-Wunused-variable]
+   25 |     uint8_t class_code =
+      |             ^~~~~~~~~~
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.c:22:13: warning: käyttämätön muuttuja ”subclass” [-Wunused-variable]
+   22 |     uint8_t subclass =
+      |             ^~~~~~~~
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.c:19:13: warning: käyttämätön muuttuja ”prog_if” [-Wunused-variable]
+   19 |     uint8_t prog_if =
+      |             ^~~~~~~
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.c:16:13: warning: käyttämätön muuttuja ”revision” [-Wunused-variable]
+   16 |     uint8_t revision =
+      |             ^~~~~~~~
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.c:13:14: warning: käyttämätön muuttuja ”device_id” [-Wunused-variable]
+   13 |     uint16_t device_id =
+      |              ^~~~~~~~~
+[ 21%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/drivers/pci/pci_config.c.o
+In file included from /home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci_config.c:1:
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.h:41:13: warning: ”pci_scan” declared ”static” but never defined [-Wunused-function]
+   41 | static void pci_scan(
+      |             ^~~~~~~~
+[ 24%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/gdt/gdt.c.o
+[ 26%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/idt/idt.c.o
+[ 29%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/idt/interrupt.c.o
+[ 31%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/lib/scancodes.c.o
+[ 34%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/lib/std/stdio.c.o
+[ 36%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/lib/std/stdlib.c.o
+[ 39%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/lib/std/string.c.o
+[ 41%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/main.c.o
+In file included from /home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/main.c:15:
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/drivers/pci/pci.h:41:13: warning: ”pci_scan” declared ”static” but never defined [-Wunused-function]
+   41 | static void pci_scan(
+      |             ^~~~~~~~
+[ 43%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/mm/pmm.c.o
+[ 46%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/mm/vmm.c.o
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/mm/vmm.c:18:17: warning: ”initial_pt” määritelty mutta käyttämätön [-Wunused-variable]
+   18 | static uint64_t initial_pt[128][PAGE_ENTRIES] __attribute__((aligned(PAGE_SIZE)));
+      |                 ^~~~~~~~~~
+[ 48%] Building C object CMakeFiles/Tinos3cKernel.dir/kernel/pic/pic.c.o
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/pic/pic.c: Funktio ”pic_remap”:
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/pic/pic.c:5:17: warning: muuttuja ”a2” asetettu mutta käyttämätön [-Wunused-but-set-variable=]
+    5 |     uint8_t a1, a2;
+      |                 ^~
+/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/pic/pic.c:5:13: warning: muuttuja ”a1” asetettu mutta käyttämätön [-Wunused-but-set-variable=]
+    5 |     uint8_t a1, a2;
+      |             ^~
+[ 51%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/tables.c.o
+[ 53%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/types.c.o
+[ 56%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/uacpi.c.o
+[ 58%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/utilities.c.o
+[ 60%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/interpreter.c.o
+[ 63%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/opcodes.c.o
+[ 65%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/namespace.c.o
+[ 68%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/stdlib.c.o
+[ 70%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/shareable.c.o
+[ 73%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/opregion.c.o
+[ 75%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/default_handlers.c.o
+[ 78%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/io.c.o
+[ 80%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/notify.c.o
+[ 82%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/sleep.c.o
+[ 85%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/registers.c.o
+[ 87%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/resources.c.o
+[ 90%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/event.c.o
+[ 92%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/mutex.c.o
+[ 95%] Building C object CMakeFiles/Tinos3cKernel.dir/external/uacpi/source/osi.c.o
+[ 97%] Linking C executable bin/kernel.elf
+/usr/bin/ld: cannot open linker script file "/home/dev/CLionProjects/tinos3c-kernel-experimental/kernel/linker.ld": Tiedostoa tai hakemistoa ei ole
+collect2: error: ld:n paluuarvo oli 1
+make[2]: *** [CMakeFiles/Tinos3cKernel.dir/build.make:681: bin/kernel.elf] Error 1
+make[1]: *** [CMakeFiles/Makefile2:92: CMakeFiles/Tinos3cKernel.dir/all] Error 2
 make: *** [Makefile:91: all] Error 2
