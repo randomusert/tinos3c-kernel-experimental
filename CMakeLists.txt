@@ -128,10 +128,10 @@ ${UACPI_INCLUDES}
 # ------------------------------------------------------------
 
 target_link_options(Tinos3cKernel PRIVATE
--nostdlib
--Wl,-m,elf_x86_64
--Wl,-T,"${CMAKE_SOURCE_DIR}/kernel/linker.ld"
--Wl,-z,noexecstack
+        -nostdlib
+        -Wl,-m,elf_x86_64
+        "-Wl,-T,${CMAKE_SOURCE_DIR}/kernel/linker.ld"
+        -Wl,-z,noexecstack
 )
 
 # ------------------------------------------------------------
