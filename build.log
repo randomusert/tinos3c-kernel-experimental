@@ -1,7 +1,0 @@
-[  2%] Linking C executable bin/kernel.elf
-/usr/bin/ld: CMakeFiles/Tinos3cKernel.dir/kernel/acpi/kernel_apis.c.o: relocation R_X86_64_32S against `.bss' can not be used when making a PIE object; recompile with -fPIE
-/usr/bin/ld: failed to set dynamic section sizes: bad value
-collect2: error: ld:n paluuarvo oli 1
-make[2]: *** [CMakeFiles/Tinos3cKernel.dir/build.make:681: bin/kernel.elf] Error 1
-make[1]: *** [CMakeFiles/Makefile2:92: CMakeFiles/Tinos3cKernel.dir/all] Error 2
-make: *** [Makefile:91: all] Error 2

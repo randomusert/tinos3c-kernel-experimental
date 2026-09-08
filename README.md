@@ -1,6 +1,6 @@
-# Tinos3c Kernel
+# EXPERIMENTAL: Tinos3c Kernel
 
-This repository contains the main kernel development effort for **Tinos3c**, a new-generation operating system in the TinosC line.
+This repository contains the experimentation kernel development effort for **Tinos3c**, a new-generation operating system in the TinosC line.
 
 Tinos3c is written in C and is being developed largely from the ground up, with a focus on performance, stability, and feature development. Unlike earlier TinosC projects, Tinos3c is designed around a modular architecture, with the kernel and userspace developed separately.
 
@@ -17,6 +17,7 @@ You will need the following tools to compile the kernel:
 - Clang
 - NASM
 - GRUB tooling
+- CMake
 
 The build currently produces a kernel intended to be booted using GRUB.
 

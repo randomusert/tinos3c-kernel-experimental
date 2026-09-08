@@ -112,6 +112,7 @@ target_compile_options(Tinos3cKernel PRIVATE
 -mno-red-zone
 -fno-pic
 -mcmodel=kernel
+        -fno-pie
 )
 
 # ------------------------------------------------------------
@@ -129,6 +130,7 @@ ${UACPI_INCLUDES}
 
 target_link_options(Tinos3cKernel PRIVATE
         -nostdlib
+        -no-pie
         -Wl,-m,elf_x86_64
         "-Wl,-T,${CMAKE_SOURCE_DIR}/kernel/linker.ld"
         -Wl,-z,noexecstack
