@@ -10,7 +10,6 @@ file(GLOB_RECURSE KERNEL_SOURCES
         "${CMAKE_SOURCE_DIR}/kernel/*.S"
 )
 
-add_subdirectory(kernel/)
 
 include(external/uacpi/uacpi.cmake)
 
@@ -34,4 +33,9 @@ target_include_directories(
         Tinos3cKernel
         PRIVATE
         ${UACPI_INCLUDES}
+)
+
+add_executable(kernel.elf
+        ${KERNEL_SOURCES}
+        ${UACPI_SOURCES}
 )
